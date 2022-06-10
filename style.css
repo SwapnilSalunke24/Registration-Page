@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    background-color: rgb(175, 184, 12);
+    display: flex;
+}
+
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 20px 50px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #0bc8cb;
+    background-color: rgb(40, 9, 134);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+
+table{
+    width: 80%;
+    margin: 20px 70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid black;
+    background: rgb(31, 6, 191);
+    color: aqua;
+}
+
+.record{
+    margin: 20px 70px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #075f62;
+}
+
+table.list{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    width: 150%;
+}
+
+td{
+    border: 1px solid #080000;
+    text-align: left;
+    padding: 8px 8px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background: rgb(31, 6, 191);
+    color: aqua;
+}
+
+input[type="text"],input[type="email"]{
+    width:90%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #03620c;
+    color: aqua;
+}
+
+input[type="reset"]:hover{
+    background: rgb(36, 36, 251);
+    color: aqua;
+}
+
+
